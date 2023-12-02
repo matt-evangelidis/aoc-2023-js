@@ -43,7 +43,7 @@ function getValueFromLine(line: string): number {
 
     return Number(`${line[first]}${line[second]}`);
 }
-async function day1() {
+async function part1() {
     const input = (await promises.readFile(path.resolve('resources/day1/input1.txt'), 'utf8'));
 
     const array = input.split(/\r?\n/);
@@ -54,7 +54,7 @@ async function day1() {
     console.log(sum);
 }
 
-async function day2() {
+async function part2() {
     const input = (await promises.readFile(path.resolve('resources/day1/input1.txt'), 'utf8'));
     const array = input.split(/\r?\n/);
 
