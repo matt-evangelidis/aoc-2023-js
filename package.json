@@ -6,7 +6,8 @@
   "type": "module",
   "scripts": {
     "day1": "tsx src/day1/index.ts",
-    "day2": "tsx src/day2/index.ts"
+    "day2": "tsx src/day2/index.ts",
+    "day3": "tsx src/day3/index.ts"
   },
   "author": "",
   "license": "ISC",
